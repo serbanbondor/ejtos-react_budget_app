@@ -12,8 +12,8 @@ const ExpenseList = () => {
   };
 
   return (
-    <div className="alert alert-secondary">
-      <span>Currency</span>
+    <div className="alert alert-se" style={{ backgroundColor: '#90EE90'}}>
+      <span>Currency </span>
       <select
         className="custom-select"
         id="inputCurrencySelect"
